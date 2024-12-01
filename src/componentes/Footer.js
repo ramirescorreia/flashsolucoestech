@@ -28,6 +28,7 @@ const Footer = () => {
         </div>
         <div className="footer-section-colums">
           <span>62-99335-7679</span>
+          <span>62-99317-2731</span>
           <span>Flash@tech.com</span>
           <span>Solutions@tech.com</span>
           <span>SEO@tech.com</span>
