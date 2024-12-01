@@ -1,9 +1,9 @@
 import { BsFillPlayCircleFill } from "react-icons/bs";
 import AboutBackground from "../imagens/imagem google.png";
-import AboutBackgroundImage from "../imagens/SEO.png";
+
 const About = () => {
   return (
-    <div className="about-section-container">
+    <div className="about-section-container" id="sobre">
       <div className="about-background-image-container">
         <img src={AboutBackground} alt="site bem posicionado" />
       </div>

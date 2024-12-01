@@ -7,17 +7,10 @@ import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Drawer from "@mui/material/Drawer";
-import box from "@mui/material/Box";
-import list from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import About from "./About";
-import Home from "./Home";
-import Work from "./Work";
-import Testemonial from "./Testemonial";
-import Contact from "./Contact";
 
 const NavBar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -51,11 +44,11 @@ const NavBar = () => {
 
       <div className="navbar-links-container">
         
-          <a href={Home}>Home</a>
-          <a href={About}>Sobre Nós</a>
-          <a href={Work}>Nosso Trabalho</a>
-          <a href={Testemonial}>Avaliação</a>
-          <a href={Contact}>Contato</a>
+          <a href="#home">Home</a>
+          <a href="#sobre">Sobre Nós</a>
+          <a href="#work">Nosso Trabalho</a>
+          <a href="#avaliacao">Avaliação</a>
+          <a href="#contato">Contato</a>
           <button className="primary-button">Orçamento</button>
         
       </div>
