@@ -20,7 +20,7 @@ const Work = () => {
   ];
 
   return (
-    <div className="work-section-wrapper">
+    <div className="work-section-wrapper" id="work">
       <div className="work-section-top">
         <p className="primary-subheading">Nosso Trabalho</p>
         <h1>Cras eros sem</h1>
